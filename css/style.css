@@ -1,6 +1,3 @@
-/* Paleta: verde #2f6b4f | amarelo #f2c14e | creme #f7f5ee | marrom #3b2f1e | branco #ffffff */
-/* Fontes: Poppins (externa, Google Fonts) e Georgia (do sistema) */
-
 * {
   box-sizing: border-box;
 }
@@ -30,7 +27,7 @@ input:focus {
   outline-offset: 2px;
 }
 
-/* ---------- Cabeçalho e menu ---------- */
+/* Cabeçalho e menu*/
 .cabecalho {
   background-color: #48cea1;
   color: #ffffff;
@@ -70,7 +67,7 @@ input:focus {
   border-bottom-color: #f2c14e;
 }
 
-/* ---------- Conteúdo ---------- */
+/*Conteúdo*/
 main {
   max-width: 1000px;
   margin: 0 auto;
@@ -149,7 +146,7 @@ section {
   font-weight: bold;
 }
 
-/* ---------- Rodapé ---------- */
+/* Rodapé */
 .rodape {
   background-color: #3b2f1e;
   color: #f7f5ee;
@@ -170,7 +167,7 @@ section {
   gap: 1.5rem;
 }
 
-/* ---------- Login e cadastro ---------- */
+/*Login e cadastro */
 .pagina-form {
   min-height: 100vh;
   display: flex;
@@ -228,7 +225,7 @@ section {
   margin-bottom: 0;
 }
 
-/* ---------- Responsivo ---------- */
+
 @media (max-width: 600px) {
   .cabecalho {
     flex-direction: column;
