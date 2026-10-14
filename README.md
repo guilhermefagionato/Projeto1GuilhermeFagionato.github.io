@@ -17,7 +17,7 @@ https://guilhermefagionato.github.io/Projeto1GuilhermeFagionato.github.io/
 - principal.html
 - css
     - css.styles
-- igs
+- figs
     - fish-fins-solid-full.svg
     - fish-solid-full.svg
     - otter-solid-full.svg
