@@ -1,4 +1,4 @@
-# EcoColeta
+# AquaMarine
 
 Site sobre informações pertinentes ao oceano, desenvolvido em HTML e CSS para o Projeto 1.
 
