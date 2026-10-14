@@ -12,17 +12,17 @@ https://guilhermefagionato.github.io/Projeto1GuilhermeFagionato.github.io/
 
 ## Estrutura do projeto
 
--index.html
--login.html
--principal.html
--css
-    -css.styles
--figs
-    -fish-fins-solid-full.svg
-    -fish-solid-full.svg
-    -otter-solid-full.svg
-    -shrimp-solid-full.svg
-    -SDG-14.png
+- index.html
+- login.html
+- principal.html
+- css
+    - css.styles
+- igs
+    - fish-fins-solid-full.svg
+    - fish-solid-full.svg
+    - otter-solid-full.svg
+    - shrimp-solid-full.svg
+    - SDG-14.png
 
 ## Tecnologias
 
