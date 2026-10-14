@@ -1,0 +1,237 @@
+/* Paleta: verde #2f6b4f | amarelo #f2c14e | creme #f7f5ee | marrom #3b2f1e | branco #ffffff */
+/* Fontes: Poppins (externa, Google Fonts) e Georgia (do sistema) */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f7f5ee;
+  color: #3b2f1e;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #48cea1;
+  line-height: 1.2;
+}
+
+a {
+  color: #48cea1;
+}
+
+a:focus,
+button:focus,
+input:focus {
+  outline: 3px solid #f2c14e;
+  outline-offset: 2px;
+}
+
+/* ---------- Cabeçalho e menu ---------- */
+.cabecalho {
+  background-color: #48cea1;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cabecalho .logo {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.3rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+.menu a:hover {
+  border-bottom-color: #f2c14e;
+}
+
+/* ---------- Conteúdo ---------- */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hero p {
+  max-width: 65ch;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.icone {
+  color: #f2c14e;
+  margin-right: 0.5rem;
+}
+
+.lista-passos {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-passos li {
+  background-color: #ffffff;
+  border-left: 5px solid #f2c14e;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.cartao {
+  background-color: #ffffff;
+  border: 1px solid #e3dfd0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cartao img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cartao h3,
+.cartao p {
+  margin: 0;
+  padding: 0.8rem 1rem 0;
+}
+
+.cartao p {
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.destaque {
+  background-color: #f1d48e;
+  color: #3b2f1e;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.destaque span {
+  font-weight: bold;
+}
+
+/* ---------- Rodapé ---------- */
+.rodape {
+  background-color: #3b2f1e;
+  color: #f7f5ee;
+  padding: 2rem;
+  text-align: center;
+}
+
+.rodape a {
+  color: #f0d79d;
+}
+
+.rodape ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* ---------- Login e cadastro ---------- */
+.pagina-form {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagina-form main {
+  flex: 1;
+  width: 100%;
+  max-width: 480px;
+}
+
+.formulario {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid #e3dfd0;
+}
+
+.formulario label {
+  display: block;
+  font-weight: bold;
+  margin: 1rem 0 0.3rem;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 0.6rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #b9b39c;
+  border-radius: 4px;
+}
+
+.botao {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #48cea1;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #256536;
+}
+
+.formulario .troca {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* ---------- Responsivo ---------- */
+@media (max-width: 600px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

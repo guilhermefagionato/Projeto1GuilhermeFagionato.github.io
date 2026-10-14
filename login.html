@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre na sua conta do EcoColeta.">
+  <title>Login - EcoColeta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pagina-form">
+  <header class="cabecalho">
+    <a class="logo" href="index.html">EcoColeta</a>
+  </header>
+
+  <main>
+    <section>
+      <h1>Entrar</h1>
+      <p>Acesse sua conta para ver a página principal.</p>
+
+      <form class="formulario" action="principal.html" method="get">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required autocomplete="current-password">
+
+        <button class="botao" type="submit">Entrar</button>
+        <p class="troca">Ainda não tem conta? <a href="index.html">Cadastre-se</a></p>
+        <p class="troca">Entrar como convidado <a href="principal.html">Visitar</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>AquaMarine Projeto 1</p>
+  </footer>
+</body>
+</html>
