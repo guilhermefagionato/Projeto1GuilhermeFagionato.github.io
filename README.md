@@ -1,6 +1,6 @@
 # AquaMarine
 
-Site sobre informações pertinentes ao oceano, desenvolvido em HTML e CSS para o Projeto 1.
+Site sobre informações pertinentes ao oceano, desenvolvido em HTML, CSS e JavaScript para os Projetos 1 e 2.
 
 ## Descrição
 
@@ -14,9 +14,12 @@ https://guilhermefagionato.github.io/Projeto1GuilhermeFagionato.github.io/
 
 - index.html
 - login.html
+- adm.html
 - principal.html
 - css
-    - css.styles
+    - style.css
+- js
+    - adm.js
 - figs
     - fish-fins-solid-full.svg
     - fish-solid-full.svg
@@ -28,6 +31,7 @@ https://guilhermefagionato.github.io/Projeto1GuilhermeFagionato.github.io/
 
 - HTML5 com tags semânticas
 - CSS3
+- JavaScript (DOM e Web Storage / Local Storage)
 - Fonte externa: Poppins (Google Fonts)
 - Ícones: Font Awesome
 
